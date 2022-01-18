@@ -7,7 +7,7 @@ class Data:
 		self.key = ""
 		self.author=""
 		self.github=""
-		self.branch = ""
+		self.branch = list(self.repo.get_branches())[0]
 
 
 
