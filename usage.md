@@ -3,7 +3,7 @@
 ---
 
 ### Initializing the Database
-* Class: [`ShitDB.DB`](https://github.com/v1s1t0r999/ShitDB/blob/master/ShitDB/core.py#L7)
+* Class: [`ShitDB.DB()`](https://github.com/v1s1t0r999/ShitDB/blob/master/ShitDB/core.py#L7)
 * Parameters:
 	* `github_token`: \
 		*REQUIRED FIELD* \
@@ -24,7 +24,7 @@ import ShitDB
 
 my_db = ShitDB.DB("github_token", "my-repo", ("username","email@smth.com"), branch="my-database-branch")
 
-# YOUR STUFF HERE
+(YOUR STUFF HERE)
 ```
 	
 ---
