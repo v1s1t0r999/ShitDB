@@ -17,7 +17,50 @@
 
 
 
+## Requirements:
+- Your GitHub Token. [how?](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+- A repo as a database. Can be Private or Public!
+- Your email and username associated with your GitHub account.
+- Of-course a Heroku app. [how?](https://devcenter.heroku.com/articles/getting-started-with-python)
+- Uhh...nothing else I guess
+
+
 ---
+## CODE ARENA
+```py
+"""
+A MINIMALISTIC EXAMPLE OD  ShitDB!
+"""
+
+import json
+import ShitDB
+
+
+TOKEN = "ghp_github_token_999xyz"
+AUTHOR = ("username","email")
+REPO = "Repo-As-Database"
+
+
+db = ShitDB.DB(github_token=TOKEN,database_repo=REPO,author=AUTHOR) # optional => branch="my-branch"
+
+
+## YOUR STUFF
+
+def register_user(user,id):
+    with open("users.json","r") as f:
+		old = json.load(f)
+	old.update({user:id}) # old became new!
+	
+	db.push_remote_data(content=old,file_path="my_files/users.json") # file path on github
+	
+
+def get_user_data(user):
+	data = db.load_remote_data("my_files/users.json",eval_output=True) # By-Default the return type is <str> | eval_output=True to convert <str> to <dict>
+	id = data[user]
+	return id
+	
+
+```
 
 
 ## ***THIS WAS MADE BY ME FOR MY [DISCORD BOT](https://dsc.gg/letleaf-the-bot). DO INVITE IT!***
