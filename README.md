@@ -27,6 +27,9 @@
 
 ---
 ## CODE ARENA
+```shell
+$ pip install ShitDB
+```
 ```py
 """
 A MINIMALISTIC EXAMPLE OD  ShitDB!
