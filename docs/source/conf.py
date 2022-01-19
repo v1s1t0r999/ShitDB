@@ -12,11 +12,12 @@ version = '1.0'
 # -- General configuration
 
 extensions = [
-    'sphinx.ext.duration',
-    'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
+    "myst_parser",
+    "sphinx.ext.duration",
+    "sphinx.ext.autosectionlabel",
+    "nbsphinx",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.intersphinx",
 ]
 
 intersphinx_mapping = {
@@ -29,7 +30,7 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'furo'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
