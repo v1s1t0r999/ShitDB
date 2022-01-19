@@ -3,7 +3,7 @@ requires = ["flit_core >=3.4,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "lumache"
+name = "ShitDB"
 authors = [{name = "v1s1t0r999", email = "v1s1t0r999@ShitDB"}]
 dynamic = ["version", "description"]
 
