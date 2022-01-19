@@ -1,3 +1,5 @@
+*I can't set up ReadTheDocs, docs for now are [here](https://v1s1t0r999.github.io/ShitDB)🤦*
+
 # ShitDB
 > A json database to fix the persistence problem on Heroku using GitHub!!
 
