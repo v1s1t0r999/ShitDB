@@ -83,7 +83,7 @@ $ <class 'dict'>
 ```
 
 ---
-# CONTRIBUTE TO COMPLETE THE DOCS [HERE](https://github.com/v1s1t0r999/ShitDB/docs/source)
+# CONTRIBUTE TO COMPLETE THE DOCS [HERE](https://github.com/v1s1t0r999/ShitDB/tree/gh-pages)
 ---
 
 
