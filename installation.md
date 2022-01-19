@@ -20,5 +20,5 @@ $ pip install git+https://github.com/v1s1t0r999/ShitDB
 [`pip`](https://pip.pypa.io/en/stable/cli/pip_download/) is required either way🤷‍
 
 
-#### NEXT [*USAGE*](https://ShitDB.readthedocs.io/en/latest/usage)
+#### NEXT [*USAGE*](https://v1s1t0r999.github.io/ShitDB/usage)
 
