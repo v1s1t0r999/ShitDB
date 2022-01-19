@@ -4,7 +4,7 @@
 ---
 
 ## The problem:
-***In Heroku's free dev plan, files are not saved for more than 24 hours (or so). So, a json file will reset, the way it was uploaded, vanishing all the stored data. Rad more [here](https://devcenter.heroku.com/articles/active-storage-on-heroku).***
+***In Heroku's free dev plan, files are not saved for more than 24 hours (or so). So, a json file will reset, the way it was uploaded, vanishing all the stored data. Read more [here](https://devcenter.heroku.com/articles/active-storage-on-heroku).***
 
 ## Solution:
 ***Using [ShitDB](https://github.com/v1s1t0r999/ShitDB) and your [GitHub](https://github.com) account, this problem can be fixed!!***
@@ -32,7 +32,7 @@ $ pip install ShitDB
 ```
 ```py
 """
-A MINIMALISTIC EXAMPLE OD  ShitDB!
+A MINIMAL USAGE OF ShitDB!
 """
 
 import json
