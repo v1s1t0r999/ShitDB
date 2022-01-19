@@ -14,4 +14,4 @@
 ***Although, there are other databases like like [PostgreSQL addon](https://elements.heroku.com/addons/heroku-postgresql) or [MongoDB Atlas](https://www.mongodb.com/developer/how-to/use-atlas-on-heroku), but saving data in JSON is quite simpler and way easier!*** \
 ***For beginners, setting up MongoDB or Heroku Postgres addon can be quite a tricky task. [ShitDB](https://github.com/v1s1t0r999/SHitDB) in an easier way!!***
 
-#### NEXT: [*INSTALLATION*](https://ShitDB.readthedocs.io/en/latest/installation)
+#### NEXT: [*INSTALLATION*](https://v1s1t0r999.github.io/ShitDB/installation)
