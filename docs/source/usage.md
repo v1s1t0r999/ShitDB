@@ -18,7 +18,7 @@
 	* `branch`: \
 		*OPTIONAL FIELD* \
 		Any branch of the specified repo which is to be used to save data. Defaults to the default branch of your repo.
-* Example:
+* Example: \
 ```py
 import ShitDB
 
