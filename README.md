@@ -1,4 +1,5 @@
 *I can't set up ReadTheDocs, docs for now are [here](https://v1s1t0r999.github.io/ShitDB)🤦*
+*Check the [example discord bot](https://github.com/v1s1t0r999/ShitDB-example-discord-bot) using ShitDB.*
 
 # ShitDB
 > A json database to fix the persistence problem on Heroku using GitHub!!
