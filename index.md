@@ -1,5 +1,5 @@
 # ShitDB
-> *A json database to fix the persistence problem on Heroku using GitHub!!*
+> *An easy json database!!*
 ---
 
 
